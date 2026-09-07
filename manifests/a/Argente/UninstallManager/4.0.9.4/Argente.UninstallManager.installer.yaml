@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Argente.UninstallManager
-PackageVersion: 4.0.9.3
+PackageVersion: 4.0.9.4
 InstallerType: inno
 Scope: machine
 InstallerSwitches:
@@ -14,12 +14,12 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
   InstallerUrl: https://argenteutilities.com/en/download/uninstallmanagerx86
-  InstallerSha256: EEFBC8E60E39AFD65D59C30144E3C013271CFE845911BAAE7671498FC6D76CED
+  InstallerSha256: FAE8248FFA85658353EB45E04501936759DCA81922149150DF61FBC3F52693B9
 - Architecture: x64
   InstallerUrl: https://argenteutilities.com/en/download/uninstallmanagerx64
-  InstallerSha256: 3120AE4858E1FB7F40242F9265CF4A880F4672E20DB8FE73142A328E6C1BA63B
+  InstallerSha256: C4B67E5DD06AF3497874501DE1FC6488EDDDB745FD86C5ACFF063435E7ABC0C3
 - Architecture: arm64
   InstallerUrl: https://argenteutilities.com/en/download/uninstallmanagerarm64
-  InstallerSha256: 7DACD0A5DDF433D735E5971E12120D7E54E50BB139607343A2D0D0F6050D7A1D
+  InstallerSha256: 7DA66C04B1BF62C04CA72B5F9BC08E2749E24F8257AA54F501ABD4556AAB05DC
 ManifestType: installer
 ManifestVersion: 1.12.0
